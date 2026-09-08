@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+
+
+.encabezado {
+    display: flex;
+    background-color: #2b3236;
+    padding: 40px 60px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 8px solid #1c669f;
+}
+
+.titulo {
+    display: flex;
+    gap: 8px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.titulo2 {
+    color: #159bd3;
+}
+
+.navegacion {
+    display: flex;
+        gap: 40px;
+        font-size: 32px;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+}
+
+.navegacion a.destacado {
+    color: #159bd3;
+}
+
+
+
+.suscribete {
+    display: flex;
+    background-color: #2b3236;
+    align-items: center;
+    padding: 50px 60px;
+    justify-content: space-around;
+}
+
+.suscribete-texto {
+    color: #fff;
+    font-size: 22px;
+}
+
+.btn-suscribirse {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-suscribirse input {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 250px;
+}
+
+.btn-suscribirse button {
+    background-color: #e64a19;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.contenido {
+    display: flex;
+    width: 78%;
+    margin: 20px auto;
+    gap: 47px;
+}
+
+
+
+.formulario {
+    width: 70%;
+}
+
+.formulario h2 {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.formulario label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.formulario input {
+    width: 100%;
+    height: 39px;
+    padding: 10px;
+    border: 1px solid #999;
+    outline: none;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.formulario textarea {
+    width: 100%;
+    height: 126px;
+    border: 1px solid #999;
+    outline: none;
+    resize: none;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+
+.boton-enviar {
+    width: 100%;
+    background-color: #e64a19;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.boton-enviar:hover {
+    background-color: #d84315;
+}
+
+
+.lateral {
+    width: 30%;
+}
+
+.caja-info {
+    height: 203px;
+    background-color: #35424a;
+    color: white;
+    padding: 34px 16px;
+    margin-bottom: 10px;
+}
+
+.caja-info h2 {
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+
+.caja-info p {
+    font-size: 19px;
+}
+
+.mapa {
+    width: 100%;
+    height: 257px;
+    overflow: hidden;
+}
+
+.mapa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer{
+    background-color: #159bd3;
+    color: white;
+    height: 192px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
