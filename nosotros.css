@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado {
+    display: flex;
+    background-color: #2b3236;
+    padding: 40px 60px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 8px solid #1c669f;
+}
+
+.titulo {
+    display: flex;
+    gap: 8px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.titulo2 {
+    color: #1c669f;
+}
+
+.navegacion {
+    display: flex;
+    gap: 40px;
+    font-size: 32px;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+}
+
+.navegacion a.destacado {
+    color: #1c669f;
+}
+
+.suscribete {
+    display: flex;
+    background-color: #2b3236;
+    align-items: center;
+    padding: 50px 60px;
+    justify-content: space-around;
+}
+
+.suscribete-texto {
+    color: #fff;
+    font-size: 22px;
+}
+
+.btn-suscribirse {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-suscribirse input {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 250px;
+}
+
+.btn-suscribirse button {
+    background-color: #e64a19;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.contenido {
+    display: flex;
+    width: 78%;
+    margin: 20px auto;
+    gap: 53px;
+}
+
+.nosotros {
+    width: 70%;
+}
+
+.nosotros h2 {
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+
+.nosotros p {
+    font-size: 20px;
+}
+
+.texto-oscuro {
+    background-color: #35424a;
+    color: white;
+    padding: 15px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.imagen-nosotros {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+.lateral {
+    width: 30%;
+    height: 203px;
+    background-color: #35424a;
+    color: white;
+    padding: 34px 16px;
+}
+
+.lateral h2 {
+    font-size: 27px;
+    margin-bottom: 18px;
+}
+
+.lateral p {
+    font-size: 20px;
+}
+
+.pie {
+    background-color: #159bd3;
+    color: white;
+    height: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
