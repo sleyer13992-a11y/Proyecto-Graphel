@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Multimedia - Servicios</title>
+    <link rel="stylesheet" href="index.css">
+    
+    
+    <style>
+        #main-servicios {
+            padding: 30px 0;
+            background-color: #ffffff;
+        }
+
+        
+        .servicios-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            align-items: flex-start;
+        }
+
+        .lista-servicios {
+            flex: 2;
+        }
+
+        .lista-servicios h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #252932;
+        }
+
+        
+        .tarjeta-servicio {
+            background-color: #eef1f4;
+            border: 1px solid #cccccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .tarjeta-servicio h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #252932;
+        }
+
+        .tarjeta-servicio p {
+            font-size: 14px;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+        .tarjeta-servicio .precio {
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 0;
+        }
+
+        
+        .sidebar-servicios {
+            flex: 1;
+            max-width: 320px;
+        }
+
+        .bloque-sidebar {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 20px;
+        }
+
+        .bloque-sidebar h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .bloque-sidebar p {
+            font-size: 13px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <div class="contenedor header-flex">
+            <div class="logo">
+                <h1>Diseño <span class="celeste">Multimedia</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="servicios.html" class="activo">SERVICIOS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section id="boletin">
+        <div class="contenedor boletin-flex">
+            <h3>Subscríbete a nuestro boletín</h3>
+            <form>
+                <input type="email" placeholder="Ingrese el Email..." required>
+                <button type="submit">Subscríbete</button>
+            </form>
+        </div>
+    </section>
+
+    
+    <section id="main-servicios">
+        <div class="contenedor servicios-grid">
+            
+            
+            <main class="lista-servicios">
+                <h2>Servicios</h2>
+                
+                <article class="tarjeta-servicio">
+                    <h3>Diseño Web</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                    <p class="precio">Precio: $300000 - $1000000</p>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <h3>Desarrollo Web</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                    <p class="precio">Precio desde: $1000000</p>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <h3>Hosting Web</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                    <p class="precio">Precio: $300000</p>
+                </article>
+            </main>
+
+            
+            <aside class="sidebar-servicios">
+                <div class="bloque-sidebar">
+                    <h3>Que hacemos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna.</p>
+                </div>
+            </aside>
+
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="contenedor">
+            <p>Graphel Desarrollo Web, Copyright &copy; 2017</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
